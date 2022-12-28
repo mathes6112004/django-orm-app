@@ -21,9 +21,17 @@ Write your own steps
 
 Include your code here
 
-## OUTPUT
+## OUTPUT:
 
 Include the screenshot of your admin page.
+### Employee Id:
+
+![Employee_id](./img2/10employeeid.jpeg)
+
+### Primary Key error:
+
+![Employee_id](./img2/primarykey.jpeg)
+
 
 
 ## RESULT
