@@ -6,29 +6,20 @@ To develop a Django application to store and retrieve data from a database using
 ## Entity Relationship Diagram
 
 Include your ER diagram here
-
-## DESIGN STEPS
-
-### Step 1:
+### Creating django-orm-app
 
 create django orm app
 
-### Step 2:
+### Step 1:
 then clone it.create my app
 
-### Step 3:
+### Step 2:
 then run the webserver,create the super user,after that create the 10 employee id
 
 
-### Step 4:
+### Step 3:
 then add the screenshot of employee id in output
 
-
-### Step 5:
-
-Testing the webserver
-
-Write your own steps
 
 
 ## PROGRAM
