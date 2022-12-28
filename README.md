@@ -9,13 +9,27 @@ Include your ER diagram here
 
 ## DESIGN STEPS
 
-### STEP 1:
+### Step 1:
 
-### STEP 2:
+create django orm app
 
-### STEP 3:
+### Step 2:
+then clone it.create my app
+
+### Step 3:
+then run the webserver,create the super user,after that create the 10 employee id
+
+
+### Step 4:
+then add the screenshot of employee id in output
+
+
+### Step 5:
+
+Testing the webserver
 
 Write your own steps
+
 
 ## PROGRAM
 
