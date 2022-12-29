@@ -24,10 +24,10 @@ then add the screenshot of employee id in output
 
 ## PROGRAM
 
-setting.py
+#setting.py
 
-# Database
-# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+Database
+ https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -36,11 +36,11 @@ DATABASES = {
     }
 }
 
-models.py
+#models.py
 
 from django.db import models
 from django.contrib import admin
-# Create your models here.
+
 class employee (models.Model):
     EMP_ID=models.CharField(primary_key=True,max_length=20,help_text="EMP_ID")
     ENAME=models.CharField(max_length=100)
@@ -54,7 +54,7 @@ admin.py
 
 from django.contrib import admin
 from .models import employee,employeeAdmin
-# Register your models here.
+
 admin.site.register(employee,employeeAdmin)
 
 ## OUTPUT:
