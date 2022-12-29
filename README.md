@@ -24,7 +24,38 @@ then add the screenshot of employee id in output
 
 ## PROGRAM
 
-Include your code here
+setting.py
+
+# Database
+# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+models.py
+
+from django.db import models
+from django.contrib import admin
+# Create your models here.
+class employee (models.Model):
+    EMP_ID=models.CharField(primary_key=True,max_length=20,help_text="EMP_ID")
+    ENAME=models.CharField(max_length=100)
+    POST=models.CharField(max_length=20)
+    SALARY=models.IntegerField()
+
+class employeeAdmin(admin.ModelAdmin):
+      list_display=('EMP_ID','ENAME','POST','SALARY')
+
+admin.py
+
+from django.contrib import admin
+from .models import employee,employeeAdmin
+# Register your models here.
+admin.site.register(employee,employeeAdmin)
 
 ## OUTPUT:
 
